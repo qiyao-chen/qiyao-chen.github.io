@@ -7,13 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>
-    生成第一篇文章 | Hexo
+    Hexo
   </title>
   <meta name="description" content>
-  
-  <meta name="keywords" content="
-  
-  ">
   
   <meta name="author" content="John Doe">
 
@@ -81,68 +77,95 @@
 </nav>
 
 <div class="main-container">
-  <header class="header-wrapper desktop-only">
-  <div class="container header-site-detail">
-    <ul class="header-toolbar">
-      <li class="clearfix">
-        <a href="/archives" class="header-toolbar-left"><i class="fa fa-file-text"></i> Posts </a>
-        <a href="/archives" class="header-toolbar-right"> 4 </a>
-      </li>
-      <li>
-        <a href="/tags" class="header-toolbar-left"><i class="fa fa-tags"></i> Tags </a>
-        <a href="/tags" class="header-toolbar-right"> 5 </a>
-      </li>
-      <li>
-        <a href="/categories" class="header-toolbar-left"><i class="fa fa-folder-open"></i> Categories </a>
-        <a href="/categories" class="header-toolbar-right"> 0 </a>
-      </li>
-    </ul>
-    <h2 class="header-title">
-      <i class="fa fa-book text-muted"></i>
-      <a href="/">Hexo</a>
-      
-      
-    </h2>
-  </div>
+  
 
-  <div class="container">
-    <div class="header-tab-wrapper clearfix">
-      <span class="header-tab header-tab-selected"><i class="fa fa-thumbs-o-up"></i> Like</span>
-      <span class="header-tab"><i class="fa fa-share-alt"></i> Share</span>
-      <span class="header-tab"><i class="fa fa-comments-o"></i> Discussion</span>
-      <span class="header-tab"><i class="fa fa-bookmark-o"></i> Bookmark </span>
-      <span class="header-tab"><i class="fa fa-smile-o"></i> Smile <i class="fa fa-caret-down"></i></span>
+<div class="container-lg">
+  
+
+<div class="blog-intro">
+  <div class="blog-intro-user">
+    <img class="avatar" src="https://octodex.github.com/images/baracktocat.jpg">
+    <div class="user-name">
+      <div class="blog-title">Hexo</div>
+      <div class="blog-author">John Doe</div>
+        <ul class="user-detail mobile-only">
+    
+    <li>
+      <i class="fa fa-link"></i>
+      <a href="http://yoursite.com">http://yoursite.com</a>
+    </li>
+  </ul>
+    </div>
+    <div class="blog-description">
+      
     </div>
   </div>
-</header>
 
+  <ul class="user-detail desktop-only">
+    
+    <li>
+      <i class="fa fa-link"></i>
+      <a href="http://yoursite.com">http://yoursite.com</a>
+    </li>
+  </ul>
 
-<div class="post-container container">
-  <h3>
-    <i class="fa fa-user-o"></i>
-    John Doe
-
-    <span class="post-date float-right" title="{{moment(1554783647000).format('MMM DD, YYYY, h:mm:ss A')}}">
-      <i class="fa fa-pencil-square-o"></i>
-      {{moment(1554783647000).fromNow()}}
-    </span>
-  </h3>
-
-  <article class="post-content">
-    <h1>生成第一篇文章</h1>
-    <h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><p>hexo new [layout] <title></title></p>
-<h2 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h2><p>hexo generate</p>
-<h2 id="启动本地服务"><a href="#启动本地服务" class="headerlink" title="启动本地服务"></a>启动本地服务</h2><p>hexo server</p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>hexo deploy</p>
-
-  </article>
+  <div class="social-media desktop-only">
+    <h4>Social Media</h4>
+    <ul>
+      
+    </ul>
+  </div>
 </div>
 
 
+  <div class="blog-detail">
     
+<nav class="blog-detail-nav desktop-only">
+  <ul class="clearfix">
+    <li class>
+      <a href="/">Overview</a></li>
+    <li class>
+      <a href="/archives">Posts <span class="counter">4</span></a>
+    </li>
+    <li class>
+      <a href="/categories">Categories <span class="counter">0</span></a></li>
+    <li class="selected">
+      <a href="/tags">Tags <span class="counter">5</span></a></li>
+  </ul>
+</nav>
 
-
-
+    <div class="body-secondary">
+      <ul class="archive-list">
+        
+        <li class="archive-list-item">
+          <h2><a href="/2019/04/10/前后端分离之session问题/">(转)前后端分离之session问题</a></h2>
+          <p>
+                背景   目前正在开发的项目是前后端分离的项目，前端是react,后端springboot开发的微服务，在调试登录的时候发现，登录成功后把所需的信息都放到session中并存到redis里，但当用户从session中取信息的时候发现始终取不到，每次跨域请求时ajax发送的都是新的sessio...
+          </p>
+          <ul class="tag-list clearfix">
+            
+            <li class="tag-list-item"><a href="/tags/转/">转</a></li>
+            
+            <li class="tag-list-item"><a href="/tags/前后端分离/">前后端分离</a></li>
+            
+            <li class="tag-list-item"><a href="/tags/session/">session</a></li>
+            
+          </ul>
+          <div class="post-info">
+            <span>
+              
+              <i class="fa fa-folder-open"></i> Uncategorized
+              
+            </span>
+            <span><i class="fa fa-tag"></i> 3 </span>
+            <span>Published {{moment(1554888528000).fromNow()}}</span>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
 
 </div>
 

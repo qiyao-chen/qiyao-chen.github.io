@@ -15,8 +15,11 @@
 
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="theme-color" content="#1e2327">
+  <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
 
-  <link rel="icon" type="image/x-icon" href>
+  <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
@@ -122,17 +125,42 @@
     <li class>
       <a href="/">Overview</a></li>
     <li class="selected">
-      <a href="/archives">Posts <span class="counter">3</span></a>
+      <a href="/archives">Posts <span class="counter">4</span></a>
     </li>
     <li class>
       <a href="/categories">Categories <span class="counter">0</span></a></li>
     <li class>
-      <a href="/tags">Tags <span class="counter">0</span></a></li>
+      <a href="/tags">Tags <span class="counter">5</span></a></li>
   </ul>
 </nav>
 
     <div class="body-secondary">
       <ul class="archive-list">
+        
+        <li class="archive-list-item">
+          <h2><a href="/2019/04/10/前后端分离之session问题/">(转)前后端分离之session问题</a></h2>
+          <p>
+                背景   目前正在开发的项目是前后端分离的项目，前端是react,后端springboot开发的微服务，在调试登录的时候发现，登录成功后把所需的信息都放到session中并存到redis里，但当用户从session中取信息的时候发现始终取不到，每次跨域请求时ajax发送的都是新的sessio...
+          </p>
+          <ul class="tag-list clearfix">
+            
+            <li class="tag-list-item"><a href="/tags/转/">转</a></li>
+            
+            <li class="tag-list-item"><a href="/tags/前后端分离/">前后端分离</a></li>
+            
+            <li class="tag-list-item"><a href="/tags/session/">session</a></li>
+            
+          </ul>
+          <div class="post-info">
+            <span>
+              
+              <i class="fa fa-folder-open"></i> Uncategorized
+              
+            </span>
+            <span><i class="fa fa-tag"></i> 3 </span>
+            <span>Published {{moment(1554888528000).fromNow()}}</span>
+          </div>
+        </li>
         
         <li class="archive-list-item">
           <h2><a href="/2019/04/09/logic-belog/">first belog</a></h2>
